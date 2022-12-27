@@ -4024,7 +4024,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetPos,
 		C3.Plugins.Timeline.Acts.StopAllTimelines,
 		C3.Plugins.System.Acts.GoToLayoutByName,
-		C3.Plugins.Mouse.Cnds.OnObjectClicked
+		C3.Plugins.Mouse.Cnds.OnObjectClicked,
+		C3.Plugins.System.Acts.ResetGlobals
 	];
 };
 self.C3_JsPropNameTable = [
